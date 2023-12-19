@@ -1,6 +1,8 @@
 function Laptop(){
-    return (
-        <div className="container" ><h2>hello</h2></div>
-    );
+    return (   
+        <>
+        <h1>Laptop</h1>
+        </>
+     );
 }
 export default Laptop;
