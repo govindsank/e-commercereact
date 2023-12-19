@@ -1,8 +1,6 @@
-import "../src/App.css"
-
-function Home(){
+function Laptop(){
     return (
         <div className="container" ><h2>hello</h2></div>
     );
 }
-export default Home;
+export default Laptop;

@@ -14,14 +14,14 @@ function Nav(){
           <a class="nav-link active" aria-current="page" href="/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/feature">Features</a>
+          <a class="nav-link"><Link to={"/mobile"}style={{textDecoration: 'none', color:'black'}}>Mobile</Link></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
+          <a class="nav-link"><Link to={"/laptop"} style={{textDecoration: 'none', color:'black'}}>Laptops</Link></a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link disabled">Disabled</a>
-        </li>
+        {/* <li class="nav-item">
+          <a class="nav-link" href="/laptop"></a>
+        </li> */}
       </ul>
     </div>
   </div>
