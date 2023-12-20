@@ -16,7 +16,6 @@ extended:true,
 }));
 app.use(cors());
 app.use(express.static("./dist"));
-app.use("/image",express.static('images'));
 app.use("/",router);
 app.get("/*",(req, res) => {
     return res.sendFile(path.resolve("./dist/index.html"))

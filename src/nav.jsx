@@ -4,7 +4,7 @@ function Nav(){
         <>
         <nav class="navbar navbar-expand-lg bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand" href="#"><h3>Navbar</h3></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -18,6 +18,9 @@ function Nav(){
         </li>
         <li class="nav-item">
           <a class="nav-link"><Link to={"/laptop"} style={{textDecoration: 'none', color:'black'}}>Laptops</Link></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"><Link to={"/register"} style={{textDecoration: 'none', color:'black'}}>register</Link></a>
         </li>
         {/* <li class="nav-item">
           <a class="nav-link" href="/laptop"></a>

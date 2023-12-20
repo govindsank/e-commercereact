@@ -1,3 +1,5 @@
+import "../src/App.css"
+
 function Home(){
     return (
  <div className="container"><div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
